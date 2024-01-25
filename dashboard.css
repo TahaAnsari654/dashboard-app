@@ -1,0 +1,32 @@
+/* 
+@font-face {
+    font-family:"YoungSerif";
+    src: url(font/YoungSerif-Regular.ttf);
+ } */
+ 
+ *{
+    font-family: "YoungSerif";
+ }
+ 
+ 
+ 
+ .container-fluid{ 
+    height: 60px;
+     
+ } 
+ 
+ 
+ @media only screen and (max-width : 500px) {
+ 
+    .main{
+       padding: 10px 4px;
+      
+    }
+    
+ }
+ 
+ .card{
+    background-color:#103a3f;
+    border-color: 2px sandybrown;
+ }
+ 
